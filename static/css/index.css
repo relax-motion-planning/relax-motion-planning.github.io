@@ -330,6 +330,11 @@ body {
   border-radius: 2px;
 }
 
+/* Remove underline for specific titles */
+.title.no-underline::after {
+  display: none !important;
+}
+
 /* Content Improvements */
 .content.has-text-justified {
   font-size: 1.1rem;
